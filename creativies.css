@@ -1,0 +1,649 @@
+/*header*/
+.header__title {
+  color: #fff;
+}
+
+.header {
+  background-image: url(foto/header/fon.png);
+  display: flex;
+}
+
+.header__titleli {
+  list-style-type: none;
+}
+
+.header__nav_items {
+  text-indent: 15px;
+}
+
+.header__social.icons {
+  text-indent: 10px;
+}
+
+.btn__scroll {
+  display: flex;
+  justify-content: center;
+}
+
+.btn__scroll i {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 20px;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.btn__scroll .button {
+  background-color: transparent;
+  border: none;
+  margin-bottom: 110px;
+}
+
+.header__nav,
+.header__nav_items,
+.header__social,
+.header {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.header__nav {
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.nav_item {
+  padding-left: 10px;
+}
+
+.header_text {
+  text-align: center;
+}
+
+.header {
+  flex-flow: column;
+  justify-content: center;
+}
+
+.header__name {
+  font-size: 100px;
+  font-family: "Myriad Pro";
+  color: rgb(245, 245, 245);
+  text-transform: uppercase;
+}
+
+.header_text {
+  font-size: 25px;
+  font-family: "Myriad Pro";
+  color: rgb(17, 116, 158);
+  text-transform: uppercase;
+  margin-top: 275px;
+}
+
+.header__btn {
+  margin-top: 100px;
+}
+
+/*NEW*/
+
+.news__container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.news_items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.news_item {
+  display: flex;
+  width: 100%;
+}
+
+.news__date,
+.news__dates {
+  margin-top: 100px;
+}
+
+.news__text {
+  margin-bottom: 110px;
+  font-size: 15px;
+}
+
+.news__titles {
+  font-size: 15px;
+}
+
+.news_item.info {
+  flex-flow: column;
+  background-color: #222222;
+  width: 100%;
+}
+
+.news__date,
+.news__title,
+.news__text {
+  text-align: inherit;
+  width: 100%;
+  margin-left: 200px;
+}
+
+.abs {
+  width: 450px;
+}
+
+.news__title,
+.news__titles {
+  font-size: 25px;
+}
+
+.news__date,
+.news__title,
+.news__text {
+  color: #fff;
+}
+
+.news_item.img {
+  width: 740px;
+}
+
+.news_item.informatica {
+  flex-flow: column;
+  background-color: #f3f3f3;
+  width: 100%;
+}
+
+.news__dates,
+.news__titles,
+.news__texts {
+  color: #222222;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 85px;
+}
+
+.news__dates,
+.news__titles,
+.news__texts {
+  text-align: inherit;
+  width: 100%;
+  margin-left: 200px;
+}
+
+/*about__agency*/
+
+.about__agency {
+  background-color: #11749e;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+
+.about__heading {
+  flex-flow: column;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.about__feature {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.about__text {
+  font-size: 38px;
+  margin-top: 160px;
+  margin-bottom: 130px;
+  color: #fff;
+}
+
+.feature__one {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.featurie__title {
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.featurie__text {
+  width: 300px;
+  font-size: 15px;
+  align-content: center;
+  margin-bottom: 100px;
+  color: #fff;
+}
+
+.featurie__img {
+  width: 100px;
+  height: 100px;
+  margin-left: 87px;
+  margin-bottom: 40px;
+}
+.about__feature {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about__title {
+  font-size: 30px;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.18);
+  font-weight: bold;
+  line-height: 0.852;
+  text-align: center;
+  -moz-transform: matrix(8.23928436410974, 0, 0, 8.23928436410975, 0, 0);
+  -webkit-transform: matrix(8.23928436410974, 0, 0, 8.23928436410975, 0, 0);
+  -ms-transform: matrix(8.23928436410974, 0, 0, 8.23928436410975, 0, 0);
+  position: absolute;
+  left: 750px;
+  top: 1000px;
+}
+
+.foto__on {
+  position: relative;
+  top: -82px;
+  margin-left: 35px;
+}
+
+/*area*/
+.blog__title_area {
+  flex-flow: column;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.area__title {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgba(34, 34, 34, 0.18);
+  -moz-transform: matrix(8.23928436410974, 0, 0, 8.23928436410975, 0, 0);
+  -webkit-transform: matrix(8.23928436410974, 0, 0, 8.23928436410975, 0, 0);
+  -ms-transform: matrix(8.23928436410974, 0, 0, 8.23928436410975, 0, 0);
+}
+
+.area__text {
+  font-size: 20px;
+  font-family: "Myriad Pro";
+  color: rgb(34, 34, 34);
+}
+
+.blog__area {
+  background-color: #ffffff;
+}
+
+.blog__area_display {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: -160px;
+}
+
+.img__area {
+  width: 200px;
+}
+
+.blog__text {
+  width: 271px;
+  font-size: 15px;
+  align-content: center;
+  margin-bottom: 100px;
+  color: #000;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.blog__title {
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb(17, 116, 158);
+  margin-top: 15px;
+}
+
+.blog__display {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.header__title {
+  margin-top: 55px;
+  margin-bottom: 85px;
+  color: #222222;
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+.blog__title_area {
+  margin-top: 90px;
+}
+
+.area__text {
+  font-size: 20px;
+  font-family: "Myriad Pro";
+  color: rgb(34, 34, 34);
+  text-transform: uppercase;
+}
+
+/*quck*/
+.quck__action__ario {
+  background-color: #11749e;
+  display: flex;
+}
+
+.container__quck {
+  display: flex;
+  align-items: center;
+  margin-top: 110px;
+  margin-bottom: 160px;
+}
+
+.quck__text {
+  text-align: left;
+  width: 540px;
+}
+
+.quck__foto {
+  margin-right: 35px;
+}
+
+.container__quck {
+  margin-left: 80px;
+}
+
+/*key__feature*/
+
+.key__feature {
+  background-image: url(foto/dog/01.png);
+  display: flex;
+  justify-content: center;
+}
+
+.full__title_one,
+.full__title_three,
+.full__title_two,
+.key__text,
+.full__title {
+  color: #fff;
+}
+
+.key__row {
+  display: flex;
+  margin-top: 95px;
+}
+
+.key__header {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.full__title_one,
+.full__title_three,
+.full__title_two {
+  background-color: #11749e;
+  font-size: 15px;
+  font-family: "Myriad Pro";
+}
+
+.key__text {
+  font-size: 15px;
+  width: 540px;
+  margin-bottom: 50px;
+}
+
+.key__title {
+  font-size: 25px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.key__img {
+  margin-left: 250px;
+  margin-bottom: 100px;
+}
+
+.full__col {
+  margin-left: -25px;
+}
+
+.full__title_one {
+  padding: 15px 120px 15px 0px;
+  margin: 25px 220px 25px 25px;
+}
+
+.full__title_two {
+  margin: 25px 30px 25px 25px;
+  padding: 15px 120px 15px 0px;
+}
+
+.full__title_three {
+  padding: 15px 120px 15px 0px;
+  margin: 25px -75px 25px 25px;
+}
+
+.team__title {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgba(34, 34, 34, 0.18);
+  font-weight: bold;
+  line-height: 0.852;
+  text-align: center;
+  -moz-transform: matrix(8.23928436410974, 0, 0, 8.23928436410975, 0, 0);
+  -webkit-transform: matrix(8.23928436410974, 0, 0, 8.23928436410975, 0, 0);
+  -ms-transform: matrix(8.23928436410974, 0, 0, 8.23928436410975, 0, 0);
+  position: absolute;
+  left: 755.954px;
+  top: 4650.22px;
+  z-index: 33;
+}
+
+.team__text {
+  font-size: 25px;
+  font-family: "Myriad Pro";
+  color: rgb(34, 34, 34);
+}
+
+.tem__colum {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team__header {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.team__row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tem__colum {
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+.team_header_title {
+  font-size: 30px;
+  margin-bottom: 80px;
+}
+
+.team__tittl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: -28px;
+  top: 20px;
+}
+
+.team_row_title {
+  font-size: 20px;
+  font-family: "Myriad Pro";
+  color: rgb(17, 116, 158);
+  background-image: url(foto/team/89.png);
+  text-align: center;
+}
+
+.te {
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: rgb(0, 0, 0);
+  margin-bottom: 15px;
+}
+
+.tete {
+  margin-bottom: -10px;
+}
+
+/*Contact*/
+
+.contact__area {
+  background-image: url(foto/massager/123.png);
+  margin-top: 50px;
+}
+
+.header_contact_title,
+.header_contact_text {
+  color: #f3f3f3;
+}
+
+.contaxt__header {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact__you {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.massager {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 135px;
+}
+
+.header_contact_title {
+  font-size: 30px;
+  font-family: "Roboto";
+  color: rgba(246, 240, 240, 0.18);
+  font-weight: bold;
+  line-height: 0.852;
+  text-align: center;
+  -moz-transform: matrix(8.23928436410974, 0, 0, 8.23928436410975, 0, 0);
+  -webkit-transform: matrix(8.23928436410974, 0, 0, 8.23928436410975, 0, 0);
+  -ms-transform: matrix(8.23928436410974, 0, 0, 8.23928436410975, 0, 0);
+  position: absolute;
+  left: 735.2px;
+  top: 5530.22px;
+}
+
+.header_contact_text {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.contact__you {
+  margin-bottom: 40px;
+}
+
+.input {
+  background-color: transparent;
+  padding-right: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-color: #f3f3f3;
+}
+
+.input_massager {
+  background-color: transparent;
+  margin-right: 100px;
+  padding-right: 1070px;
+  padding-top: 5px;
+  padding-bottom: 120px;
+  border-color: #f3f3f3;
+}
+
+.sumbit__btn {
+  margin-top: 50px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+
+  padding: 20px;
+  background-color: #11749e;
+}
+
+.btnnn {
+  margin-left: 645px;
+  margin-right: 645px;
+}
+
+.map {
+  width: 1520px;
+  height: 340px;
+  margin-top: 50px;
+}
+
+.end__title {
+  font-size: 13px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+}
+
+.end__inf {
+  background-color: #222222;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.end__title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+}
+
+.end__logo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 200px;
+}
+
+.mr {
+  margin: 0px;
+}
+
+.news_item.imgt {
+  margin-right: 60px;
+  width: 47%;
+}
+
+..news_item.img {
+  margin-right: 60px;
+  width: 690px;
+}
